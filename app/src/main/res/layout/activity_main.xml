@@ -5,12 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <!-- tools:context=".MainActivity"> -->
+    <ImageView
+        android:id="@+id/background_image"
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <TextView
         android:id="@+id/happybirthday_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="36sp"
-        android:fontFamily="sans-serif-condensed-light"
+        android:fontFamily="sans-serif-medium"
         android:textColor="@android:color/white"
         android:text="Happy Birthday Bro" />
     <TextView
@@ -20,12 +26,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:textSize="36sp"
-        android:fontFamily="sans-serif-condensed-light"
+        android:fontFamily="sans-serif-medium"
         android:textColor="@android:color/white"
         android:text="From Elle" />
-    <ImageView
-        android:id="@+id/background_image"
-        android:src="@drawable/androidparty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 </RelativeLayout>
